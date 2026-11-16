@@ -1,0 +1,7 @@
+ultralytics>=8.3
+opencv-python
+numpy
+pyttsx3; sys_platform == "win32"
+# Pi 5 only (install via apt, venv with --system-site-packages):
+#   sudo apt install -y python3-picamera2 espeak-ng
+#   pip install ncnn
